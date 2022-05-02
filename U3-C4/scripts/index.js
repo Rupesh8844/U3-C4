@@ -38,3 +38,6 @@ function cSearch() {
     append(data.articles, container);
   });
 }
+for (let el of sidebars) {
+  el.addEventListener("click", cSearch);
+}
